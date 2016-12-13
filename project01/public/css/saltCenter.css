@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Microsoft YaHei";
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img, input {
+    border: none;
+}
+
+.clearfix:after {
+    content: "200B";
+    display: block;
+    height: 0;
+    font-size: 0;
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/****************************************/
+.salt {
+    width: 1920px;
+}
+
+.salt .content {
+    width: 100%;
+    margin-top: 105px;
+}
+
+.salt .content .inner {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.salt .content .inner .title {
+    width: 100%;
+
+}
+
+.salt .content .inner .title .pic {
+    float: left;
+    font-size: 0;
+    width: 287px;
+}
+
+.salt .content .inner .title .text {
+    width: 786px;
+    float: left;
+    margin-left: 127px;
+    margin-top: 100px;
+    text-transform: uppercase;
+}
+
+.salt .content .inner .title .text h2 {
+    color: #266bae;
+    font-family: Arial;
+    font-size: 26.29px;
+    font-weight:normal;
+}
+
+.salt .content .inner .title .text h1 {
+    color: #266bae;
+    font-size: 66px;
+    height: 98px;
+    line-height: 98px;
+    position: relative;
+}
+
+.salt .content .inner .title .text h1:after {
+    content: "";
+    width: 267px;
+    height: 5px;
+    position: absolute;
+    left: 0;
+    top: 98px;
+    background: #266bae;
+}
+
+.salt .content .inner .title .text p {
+    font-size: 16px;
+    height: 23px;
+    line-height: 23px;
+    margin-top: 62px;
+}
+
+.salt .content .inner .lemon .text {
+    margin-left: 0;
+    margin-right: 127px;
+    text-align: right;
+    width:680px;
+}
+
+.salt .content .inner .lemon .text h1:after {
+    left: 410px;
+}
+
+.salt .content .inner .rice {
+    margin-top: 150px;
+}
+
+.salt .content .inner .rice .text {
+    margin-top: 0;
+}
+
+.salt .content .inner .occasion{
+    margin-top:90px;
+}
+
+.salt .content .inner .occasion .text{
+    text-align:center;
+}
+.salt .content .inner .occasion .text h1:after{
+    left:262px;
+}
+.salt .content .inner .occasion .drink{
+    float:left;
+    width:342px;
+    height:60px;
+    margin-top:50px;
+    margin-right:58px;
+}
+.salt .content .inner .occasion .drink .photo{
+    float:left;
+    margin-right:17px;
+}
+.salt .content .inner .occasion .drink .text{
+    float:left;
+    width:250px;
+    margin:0;
+    text-align:left;
+    font-size:14px;
+}

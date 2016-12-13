@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Microsoft YaHei";
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img, input {
+    border: none;
+}
+
+.clearfix:after {
+    content: "200B";
+    display: block;
+    height: 0;
+    font-size: 0;
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/********************************************/
+.product{
+    width: 1920px;
+}
+
+.product .content {
+    width: 100%;
+    height: 685px;
+    overflow: hidden;
+    margin-top: 105px;
+}
+
+.product .content .inner {
+    width: 1300px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.product .content .inner .prev, .next {
+    font-size: 0;
+    width: 31px;
+    height: 57px;
+
+}
+
+.product .content .inner .prev {
+    float: left;
+    margin-top: 200px;
+
+}
+
+.product .content .inner .next {
+    float: right;
+}
+
+.product .content .inner .left {
+    float: left;
+    margin-left: 220px;
+}
+
+.product .content .inner .right {
+    float: left;
+    margin-left: 120px;
+    width: 468px;
+    margin-right: 220px;
+}
+
+.product .content .inner .right h1 {
+    font-size: 52.12px;
+    color: #31479b;
+    height: 77px;
+    line-height: 77px;
+    margin-top: 35px;
+}
+
+.product .content .inner .right h2 {
+    font-size: 32px;
+    color: #8d8d8d;
+    font-weight: normal;
+    height: 41px;
+    line-height: 41px;
+}
+
+.product .content .inner .right p {
+    font-size: 16px;
+    height: 28px;
+    line-height: 28px;
+    margin-top: 35px;
+}
+
+.product .content .inner .right p span {
+    font-size: 18px;
+    color: #31479b;
+}
+
+.product .content .outward {
+    width: 100%;
+    height: 68px;
+    background: #e6e6e6;
+    position: absolute;
+    left: 0;
+    top: 65%;
+}
+.product .content .outward .pic{
+    font-size:0;
+    position:relative;
+    left:900px;
+    bottom:100px;
+}
+.product .content .outward .pic img{
+    margin-right:110px;
+}
